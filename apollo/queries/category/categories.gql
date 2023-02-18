@@ -1,0 +1,10 @@
+query {
+      categories(sort:"Order") {
+        data {
+          id
+          attributes {
+            name
+          }
+        }
+      }
+    }
